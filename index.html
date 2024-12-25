@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merry Christmas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="card">
+        <!-- Snowflake Container -->
+        <div id="snow-container"></div>
+
+        <!-- SVG Greeting -->
+        <svg class="cursive-text" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#FFD700;stop-opacity:1" />
+                </linearGradient>
+            </defs>
+            <text x="50%" y="50%" dy=".35em" fill="none" stroke="url(#gradient)">
+                Merry Christmas Peter :)
+            </text>
+        </svg>
+
+ <!-- Paragraph -->
+ <div class="paragraph">
+    Wishing you and your family a season of warmth, peace, and togetherness, surrounded by those who make your heart happiest!
+</div>
+        <!-- Subheading -->
+        <div class="subheading">
+            <svg width="100%" height="50px">
+                <defs>
+                   <linearGradient id="subheading-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                      <stop offset="0%" style="stop-color:#FFD700;" />
+                      <stop offset="50%" style="stop-color:#ffffff;" />
+                      <stop offset="100%" style="stop-color:#ffc847;" />
+                   </linearGradient>
+                </defs>
+                <text x="50%" y="50%" text-anchor="middle" dy=".35em" font-size="1rem" fill="url(#subheading-gradient)" font-family="Pacifico, cursive">
+                   From the Song Family
+                </text>
+             </svg>
+             
+        </div>
+
+    
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
